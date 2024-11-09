@@ -1,4 +1,4 @@
-/* General Reset and Basic Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +14,7 @@ body {
     min-height: 100vh;
 }
 
-/* Navigation Bar */
+
 nav ul {
     list-style: none;
     display: flex;
@@ -36,7 +36,6 @@ nav ul li a:hover {
     color: #ff6600;
 }
 
-/* Header Styles */
 header {
     text-align: center;
     padding: 30px;
@@ -55,7 +54,7 @@ header p {
     margin: 0 auto;
 }
 
-/* Section Styles */
+
 main {
     flex: 1;
     padding: 20px;
@@ -74,7 +73,7 @@ main {
     margin-bottom: 20px;
 }
 
-/* Team Section - Larger Cards */
+
 .najdrazi-timovi .tim {
     display: inline-block;
     width: 220px;
@@ -102,7 +101,7 @@ main {
     color: #333;
 }
 
-/* History Section */
+
 .con {
     max-width: 800px;
     margin: 0 auto;
@@ -128,7 +127,7 @@ main {
     line-height: 1.6;
 }
 
-/* Gallery Section */
+
 .galerija {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -150,7 +149,7 @@ main {
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Contact Form */
+
 .kontakt-forma form {
     background-color: #ffffff;
     padding: 30px;
@@ -202,7 +201,7 @@ main {
     transform: scale(1.05);
 }
 
-/* Footer */
+
 footer {
     text-align: center;
     padding: 15px;
